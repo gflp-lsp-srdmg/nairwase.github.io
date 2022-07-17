@@ -1,6 +1,48 @@
 
 <head>
 <style type="text/css">
+  div {
+    background-color:Black;
+    color:#fff;
+    padding:15px;
+    border-bottom:2px solid red;
+    border-top:2px solid blue;
+    margin-bottom:15px;
+    border-radius: 30px;
+      }
+</style>
+</head>
+<style type="text/css">
+  fly {
+    background-color:black;
+    color:White;
+    padding:10px;
+    border-bottom:2px solid red;
+    border-top:2px solid blue;
+    margin-bottom:15px;
+    border-radius: 50px;
+      }
+</style>
+
+<style type="text/css">
+  info {
+    background-color:#339;
+    color:#fff;
+    padding:10px;
+    border-bottom:2px solid red;
+    margin-bottom:15px;
+border-top-left-radius:     0px 2px;
+border-top-right-radius:    60px 60px;
+border-bottom-right-radius: 60px 60px;
+border-bottom-left-radius:  0px 4px;
+      }
+</style>
+</head>
+<body>
+				
+
+<head>
+<style type="text/css">
 details {
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -44,13 +86,14 @@ details[open] summary {
 }
 .menu {
     display: flex;                /* Transformation en flexbox */
-    padding:0;                    /* Suppression des marges internes */
+    padding:0;     
+    border-radius: 30px;               /* Suppression des marges internes */
     background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
     justify-content: space-around;/* Alignements des liens dans le menu */
 }
 .menu li {
     list-style-type: none ;       /* Suppression des puces */
-  
+   
 }
 .menu a {
     display:block;                /* Transformation en block */
@@ -65,7 +108,7 @@ details[open] summary {
     border: 1px solid #fff;       /* Ajout d'une bordure */
     border-radius: 10px;           /* Arrondis des bordures */
     
-    transition: all 1s ;          /* Ajout des effets de transition */
+    transition: all 5s ;          /* Ajout des effets de transition */
 }
 .menu a.actif {    
     background-color: #000 ; 
@@ -90,5 +133,13 @@ details[open] summary {
 <body>
 				</body>
 
-<body style="background-color:#FFFACD;">
+<body style="background-color:#006490;">
 </body>
+<head>
+    <!-- Des choses -->
+    <meta name="viewport" content="width=device-width"/>
+    <!-- Encore des choses -->
+</head>
+ 
+
+
