@@ -23,6 +23,17 @@
     border-radius: 50px;
       }
 </style>
+<style type="text/css">
+  fli {
+    background-color:black;
+    color:White;
+    padding:10px;
+    border-bottom:2px solid red;
+    border-top:2px solid blue;
+    margin-bottom:15px;
+    border-radius: 50px;
+      }
+</style>
 
 <style type="text/css">
   info {
@@ -70,10 +81,19 @@ border-bottom-left-radius:  0px 4px;
 Adieux LsFly,Fry,FayzXase😔
      </info>
 </body>
+<br>
+<br>Vos message ⬇️
 
-
-
-
+<body>
+    <div>
+    <details><summary>Message(2)</summary>
+    <br>18juillet2022
+    <br> ce sisteme de permet pas de xommuniquer avec vos amis , mais de vous informer ! 
+    <br>
+    
+</details>
+</div>
+</body>
 
 
 
@@ -81,14 +101,142 @@ Adieux LsFly,Fry,FayzXase😔
 
 <br><h1>EbsayderFlyse MRF</h1></br>
 
-<br></br>
+<div class="card">
+<br><h3>EbsayderFlyse</h3>
+<br>  Nous avons eu certain souci cette année !
+<br>  La losfly devien le store 
+<br>  La nairwase devien le site 
+<br>  La fayzXase devien l'helper
+
+</div>
+
+<div class="card">
+<br>Bonsoir ,
+<br>Nous avons remis Minecraft (version récente)
+<br> (plus d'info P1) https://nairwase.github.io/info
+
+</div>
+<a href=" " target="_blank">EbsayderFlyse</a></a>
+
+<head>
+<style type="text/css">
+  @property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+
+body {
+  min-height: 100vh;
+  background: #212534;
+  display: flex;
+  align-items: top;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+
+.card {
+  background: #191c29;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 10%);
+  cursor: pointeer;
+  font-family: cursive;
+}
+
+.card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 2s;
+}
+
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    
+  
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    opacity: 1;
+  transition: opacity .5s;
+  
+  animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+
+  a {
+  color: #212534;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+  
+  
+  
+</style>
+
+</head
+
+
 <br></br>
 <br></br>
 <br></br>
 <br><h4>ℹ️⬇️information⬇️ℹ️</h4></br>
 
 <br>
-
 <body>
 <div>
 <center>
@@ -111,6 +259,9 @@ La "EbsayderFlyse™ La nouvelle communauté !
 <br>Cordialement PikaYut#6244
 </div>
 				</body>
+
+
+
 </center>
 			<center>
 				<body>
@@ -149,7 +300,7 @@ La  EbsayderFlyse et en partenariat avec Facecake ™
 <head>
 <style type="text/css">
 details {
-    border: 1px solid #aaa;
+    border: 1px solid black;
     border-radius: 4px;
     padding: .5em .5em 0;
 }
@@ -246,3 +397,7 @@ details[open] summary {
     <!-- Encore des choses -->
 </head>
  
+<!-- .card:hover:before, .card:hover:after {
+  animation: none;
+  opacity: 0;
+} -->
